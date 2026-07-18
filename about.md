@@ -15,8 +15,8 @@ Placeholder bio — a couple of paragraphs about your background, what you work 
 
 <div class="card-grid mb-4">
   <div class="card">
-    <div class="skill-icon">🧠</div>
-    <h3 class="mb-1">Languages</h3>
+    <div class="skill-icon">⭐</div>
+    <h3 class="mb-1">Category One</h3>
     <ul class="skill-list">
       <li>Skill One</li>
       <li>Skill Two</li>
@@ -24,8 +24,8 @@ Placeholder bio — a couple of paragraphs about your background, what you work 
     </ul>
   </div>
   <div class="card">
-    <div class="skill-icon">🛠️</div>
-    <h3 class="mb-1">Frameworks &amp; Tools</h3>
+    <div class="skill-icon">✦</div>
+    <h3 class="mb-1">Category Two</h3>
     <ul class="skill-list">
       <li>Skill One</li>
       <li>Skill Two</li>
@@ -33,8 +33,8 @@ Placeholder bio — a couple of paragraphs about your background, what you work 
     </ul>
   </div>
   <div class="card">
-    <div class="skill-icon">☁️</div>
-    <h3 class="mb-1">Cloud &amp; Infra</h3>
+    <div class="skill-icon">◆</div>
+    <h3 class="mb-1">Category Three</h3>
     <ul class="skill-list">
       <li>Skill One</li>
       <li>Skill Two</li>

@@ -1,50 +1,59 @@
-# :construction: WIP :construction: Athena Jekyll Theme
+# Personal Site Template
 
-A simple and elegant theme for Jekyll and GitHub Pages.
+A minimalist template for a personal site based on Jekyll and GitHub Pages.
 
-<img width="1280" alt="screenshot" src="https://cloud.githubusercontent.com/assets/334891/18644225/7f124416-7e76-11e6-899e-4f722a572171.png">
+Cloned from the [athena template by broccolini](https://github.com/broccolini/athena), modifications inspired by [Omkar Pathak's personal site](https://github.com/OmkarPathak/omkarpathak.github.io).
 
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Dynamically generated navigation links. See docs for adding pages with specific post category for-loops.
+<img width="1280" alt="screenshot" src="docs/screenshot.png">
 
-## Installation
+## Setup
+Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
 
-Add this line to your Jekyll site's Gemfile:
-
-```ruby
-gem "jekyll-athena"
+Add path to Ruby gem bin folder to PATH (note: your path and Ruby version may differ):
+```bash
+export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
 ```
 
-And add this line to your Jekyll site:
+Install Jekyll and Bundler:
+```bash
+gem install jekyll bundler
+```
 
+Clone your fork of this repo (replace the URL below with your own fork's, not the original):
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+```
+
+Navigate to repo folder:
+```bash
+cd <your-repo-name>
+```
+
+Install dependencies (defined in Gemfile, may require modification if version incompatibilities arise):
+```bash
+bundle install
+```
+
+**IMPORTANT: in `_config.yml`, set `url`, `baseurl`, `github_repo`, and `github_username` to match your own GitHub Pages deployment**
 ```yaml
-theme: jekyll-athena
+url: "https://<your-username>.github.io" # the domain GitHub Pages will serve your site at
+baseurl: "/<your-repo-name>" # leave this blank if this is your user site
+github_repo: <your-repo-name>
+github_username: <your-username>
 ```
 
-And then execute:
+Run the website locally:
+```bash
+bundle exec jekyll serve
+```
 
-    $ bundle
+## Useful websites
+A non-comprehensive list of resources for learning the basics of Jekyll and GitHub Pages:
+- Jekyll docs: https://jekyllrb.com/docs/
+- GitHub Pages docs: https://docs.github.com/en/pages
+- Blog: https://andlukyane.com/blog/how-i-created-this-website
+- Youtube tutorial: https://www.youtube.com/watch?v=fV01b0duZwU
 
-Or install it yourself as:
-
-    $ gem install jekyll-athena
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/broccolini/athena. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
 ## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This template is available under the terms of the [MIT License](http://opensource.org/licenses/MIT). Feel free to clone (recommended) or fork.
