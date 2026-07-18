@@ -16,7 +16,8 @@
 title: Your Name
 description: Placeholder tagline — swap this for your own one-line intro.
 url: "https://elisazyt.github.io" # the base hostname & protocol for your site
-github_repo: elisazyt.github.io
+baseurl: "/personal-site-template" # the repo name, since this is a project site not the root user site
+github_repo: personal-site-template
 github_username: elisazyt # TODO: replace with your real GitHub username
 
 # Social links — TODO: fill these in with your real usernames/handles.
