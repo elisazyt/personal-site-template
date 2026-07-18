@@ -16,7 +16,9 @@
 }
 
 .hero-image {
-  flex: 1 1 280px;
+  flex: 0 0 auto;
+  width: 390px;
+  max-width: 100%; // shrink gracefully on narrow screens instead of overflowing
 }
 
 .hero-image-placeholder {

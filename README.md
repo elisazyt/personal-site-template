@@ -4,7 +4,7 @@ A minimalist template for a personal site based on Jekyll and GitHub Pages.
 
 Cloned from the [athena template by broccolini](https://github.com/broccolini/athena), modifications inspired by [Omkar Pathak's personal site](https://github.com/OmkarPathak/omkarpathak.github.io).
 
-<img width="1280" alt="screenshot" src="docs/screenshot.png">
+<img width="1280" alt="screenshot" src="website_screenshot.png">
 
 ## Setup
 Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
