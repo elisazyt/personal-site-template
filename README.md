@@ -2,51 +2,51 @@
 
 A minimalist template for a personal site based on Jekyll and GitHub Pages.
 
-Cloned from the [athena template by broccolini](https://github.com/broccolini/athena), changes to design inspired by [Omkar Pathak's personal site](https://github.com/OmkarPathak/omkarpathak.github.io).
+Cloned from the [athena template by broccolini](https://github.com/broccolini/athena), design choices inspired by [Omkar Pathak's personal site](https://github.com/OmkarPathak/omkarpathak.github.io).
 > Note: Significant modifications were made with AI assistance.
 
 <img width="1280" alt="screenshot" src="website_screenshot.png">
 
 ## Setup
-Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
+1. Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
 
-Add path to Ruby gem bin folder to PATH (note: your path and Ruby version may differ):
-```bash
-export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
-```
+2. Add path to Ruby gem bin folder to PATH (note: your path and Ruby version may differ):
+   ```bash
+   export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
+   ```
 
-Install Jekyll and Bundler:
-```bash
-gem install jekyll bundler
-```
+3. Install Jekyll and Bundler:
+   ```bash
+   gem install jekyll bundler
+   ```
 
-Clone your fork of this repo (replace the URL below with your own fork's, not the original):
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-```
+4. Clone your fork of this repo (replace the URL below with your own fork's, not the original):
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+   ```
 
-Navigate to repo folder:
-```bash
-cd <your-repo-name>
-```
+5. Navigate to repo folder:
+   ```bash
+   cd <your-repo-name>
+   ```
 
-Install dependencies (defined in Gemfile, may require modification if version incompatibilities arise):
-```bash
-bundle install
-```
+6. Install dependencies (defined in Gemfile, may require modification if version incompatibilities arise):
+   ```bash
+   bundle install
+   ```
 
-**IMPORTANT: in `_config.yml`, set `url`, `baseurl`, `github_repo`, and `github_username` to match your own GitHub Pages deployment**
-```yaml
-url: "https://<your-username>.github.io" # the domain GitHub Pages will serve your site at
-baseurl: "/<your-repo-name>" # leave this blank if this is your user site
-github_repo: <your-repo-name>
-github_username: <your-username>
-```
+7. **IMPORTANT:** in `_config.yml`, set `url`, `baseurl`, `github_repo`, and `github_username` to match your own GitHub Pages deployment:
+   ```yaml
+   url: "https://<your-username>.github.io" # the domain GitHub Pages will serve your site at
+   baseurl: "/<your-repo-name>" # leave this blank if this is your user site
+   github_repo: <your-repo-name>
+   github_username: <your-username>
+   ```
 
-Run the website locally:
-```bash
-bundle exec jekyll serve
-```
+8. Run the website locally:
+   ```bash
+   bundle exec jekyll serve
+   ```
 
 ## Useful websites
 A non-comprehensive list of resources for learning the basics of Jekyll and GitHub Pages:
