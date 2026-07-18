@@ -5,8 +5,10 @@ $black: #2B2826;
 $gray-dark: #423F38;
 $gray: #A09992;
 $gray-light: #D7D5D1;
+$gray-lighter: #F5F5F5;
 $white: #fff;
 $burgundy: #B54545;
+
 // Config
 $color-background: $white !default;
 $color-foreground: $black !default;
@@ -19,11 +21,18 @@ $color-primary-link: $black !default;
 $color-primary-underline: $gray !default;
 $color-border: $gray-light !default;
 
+$color-card-background: $gray-lighter !default;
+$color-accent: $black !default;
+$color-accent-bright: $gray-dark !default;
+$color-tag-background: $gray-lighter !default;
+
 
 // Import sass partials (used in all themes)
 @import
         "variables",
         "base",
         "components",
-        "utilities"
+        "utilities",
+        "cards",
+        "sections"
 ;

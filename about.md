@@ -2,44 +2,63 @@
 layout: page
 title: About
 permalink: /about/
+order: 1
 ---
 
-A simple and elegant theme for Jekyll and GitHub Pages.
+<!-- TODO: replace with your real bio -->
 
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Dynamically generated navigation links. See docs below for adding pages with specific post category for-loops.
+Placeholder bio — a couple of paragraphs about your background, what you work on, and what you care about.
 
-## Themes
-This theme comes in two color variations. The default is set to the `light` theme. To change the theme color, add `theme_color:` to your `config.yml` file with the color you wish to use. Example: `theme_color: dark`.
+## Skills & Stack
 
-<!-- | Config setting | Thumbnail |
-| --- | --- |
-| `theme_color: black` | <img width="330" alt="black" src="url"> |
-| `theme_color: red` | <img width="330" alt="red" src="url"> | -->
+<!-- TODO: replace categories, icons, and skills with your real stack -->
 
+<div class="card-grid mb-4">
+  <div class="card">
+    <div class="skill-icon">🧠</div>
+    <h3 class="mb-1">Languages</h3>
+    <ul class="skill-list">
+      <li>Skill One</li>
+      <li>Skill Two</li>
+      <li>Skill Three</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="skill-icon">🛠️</div>
+    <h3 class="mb-1">Frameworks &amp; Tools</h3>
+    <ul class="skill-list">
+      <li>Skill One</li>
+      <li>Skill Two</li>
+      <li>Skill Three</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="skill-icon">☁️</div>
+    <h3 class="mb-1">Cloud &amp; Infra</h3>
+    <ul class="skill-list">
+      <li>Skill One</li>
+      <li>Skill Two</li>
+      <li>Skill Three</li>
+    </ul>
+  </div>
+</div>
 
-## Installation
+## Awards & Recognition
 
-Add this line to your Jekyll site's Gemfile:
+<!-- TODO: replace with your real awards -->
 
-```ruby
-gem "jekyll-athena"
-```
+<div class="award-group">
+  <h3 class="mb-1">Professional</h3>
+  <div class="award-item"><strong>Placeholder Award</strong> — Organization, Year</div>
+  <div class="award-item"><strong>Placeholder Recognition</strong> — Organization, Year</div>
+</div>
 
-And add this line to your Jekyll site `config.yml`:
+<div class="award-group">
+  <h3 class="mb-1">Academic</h3>
+  <div class="award-item"><strong>Placeholder Honor</strong> — Institution, Year</div>
+</div>
 
-```yaml
-theme: jekyll-athena
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jekyll-athena
+<div class="award-group">
+  <h3 class="mb-1">Activities</h3>
+  <div class="award-item"><strong>Placeholder Activity</strong> — Organization, Year</div>
+</div>

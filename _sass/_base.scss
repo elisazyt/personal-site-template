@@ -33,6 +33,7 @@ body {
     line-height: 1.5;
     color: $color-body-text;
     background-color: $color-background;
+    text-transform: lowercase;
 }
 
 p {
@@ -50,7 +51,7 @@ h2, .h2 { font-size: $h2-size; }
 h3, .h3 { font-size: $h3-size; }
 h4, .h4 { font-size: $h4-size; }
 h5, .h5 { font-size: $h5-size; }
-h6, .h6 { font-size: $h6-size; text-transform: uppercase; letter-spacing: 0.02em; }
+h6, .h6 { font-size: $h6-size; letter-spacing: 0.02em; }
 
 a {
   color: inherit;
