@@ -8,34 +8,29 @@ Cloned from the [athena template by broccolini](https://github.com/broccolini/at
 <img width="1280" alt="screenshot" src="website_screenshot.png">
 
 ## Setup
-1. Install Ruby: https://www.ruby-lang.org/en/documentation/installation/
+1. [Install Ruby](https://www.ruby-lang.org/en/documentation/installation/) or [set up rbenv](https://github.com/rbenv/rbenv#readme)
 
-2. Add path to Ruby gem bin folder to PATH (note: your path and Ruby version may differ):
-   ```bash
-   export PATH="/opt/homebrew/lib/ruby/gems/4.0.0/bin:$PATH"
-   ```
-
-3. Install Jekyll and Bundler:
+2. Install Jekyll and Bundler:
    ```bash
    gem install jekyll bundler
    ```
 
-4. Clone your fork of this repo (replace the URL below with your own fork's, not the original):
+3. Clone your fork of this repo (replace the URL below with your own fork's, not the original):
    ```bash
    git clone https://github.com/<your-username>/<your-repo-name>.git
    ```
 
-5. Navigate to repo folder:
+4. Navigate to repo folder:
    ```bash
    cd <your-repo-name>
    ```
 
-6. Install dependencies (defined in Gemfile, may require modification if version incompatibilities arise):
+5. Install dependencies (defined in Gemfile, may require modification if version incompatibilities arise):
    ```bash
    bundle install
    ```
 
-7. **IMPORTANT:** in `_config.yml`, set `url`, `baseurl`, `github_repo`, and `github_username` to match your own GitHub Pages deployment:
+6. **IMPORTANT:** in `_config.yml`, set `url`, `baseurl`, `github_repo`, and `github_username` to match your own GitHub Pages deployment:
    ```yaml
    url: "https://<your-username>.github.io" # the domain GitHub Pages will serve your site at
    baseurl: "/<your-repo-name>" # leave this blank if this is your user site
@@ -43,7 +38,7 @@ Cloned from the [athena template by broccolini](https://github.com/broccolini/at
    github_username: <your-username>
    ```
 
-8. Run the website locally:
+7. Run the website locally:
    ```bash
    bundle exec jekyll serve
    ```
